@@ -100,6 +100,7 @@ import {
 
 import { signet } from './signet';
 import { logo } from './logo';
+import { alac } from './alac';
 
 export const iconSubset = {
   cibCcAmex,
@@ -199,6 +200,7 @@ export const iconSubset = {
   cilUserUnfollow,
   logo,
   signet,
+  alac,
   cilBriefcase,
   cilGroup,
 };
@@ -301,6 +303,7 @@ export enum IconSubset {
   cilUserUnfollow = 'cilUserUnfollow',
   logo = 'logo',
   signet = 'signet',
+  alac = 'alac',
   cilGroup = 'cilGroup',
   cilBriefcase = 'cilBriefcase',
 }
