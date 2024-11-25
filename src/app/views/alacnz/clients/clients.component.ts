@@ -3,7 +3,6 @@ import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { RouterLink } from '@angular/router';
 import { MatTableDataSource } from '@angular/material/table';
 import { CommonModule } from '@angular/common';
 import { MatPaginator } from '@angular/material/paginator'; // Import MatPaginator
@@ -15,7 +14,6 @@ import { CLIENTS_DATA } from './data';
   selector: 'app-clients',
   standalone: true,
   imports: [
-    RouterLink,
     MatButtonModule,
     MatIconModule,
     MatPaginatorModule,
