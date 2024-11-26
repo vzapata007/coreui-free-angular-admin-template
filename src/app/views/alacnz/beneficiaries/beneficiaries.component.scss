@@ -1,0 +1,59 @@
+.clients-table-container {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+mat-paginator {
+  margin-top: 20px;
+}
+
+.badge {
+  padding: 0.5em;
+  border-radius: 5px;
+  color: white;
+}
+
+.badge-success {
+  background-color: #28a745;
+}
+.badge-secondary {
+  background-color: #6c757d;
+}
+.badge-primary {
+  background-color: #007bff;
+}
+
+/* Custom Button Styles */
+.action-btn {
+  margin: 5px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.action-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button.mat-raised-button {
+  padding: 10px 20px;
+}
+
+button.mat-raised-button.mat-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+button.mat-raised-button.mat-warn {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Styling for icons */
+mat-icon {
+  margin-right: 5px;
+}
